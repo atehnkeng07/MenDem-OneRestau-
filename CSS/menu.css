@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+/*MENU HEADER*/
+.restau-heading{
+  margin-bottom: 30px;
+}
+.restau-header{
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+/*END HEADER*/
+
+/*MENU CONTENT*/ 
+.restau-africa{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 50px;
+  column-gap: 10px;
+  margin-left: 30px;
+ }
+@media(max-width: 600px){
+  .restau-africa{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.africa-menu img{
+  height: 180px;
+  width: 200px;
+}
+
+.main-menu{
+  margin-bottom: 40px;
+}
+.order-title{
+  margin-top: 20px;
+}
+.menu-title p{
+  width: 300px;
+}
+.menu-info{
+  width: 300px;
+}
+.menu-order-button{
+  padding: 6px 14px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.menu-order-button:hover{
+  background-color: #555;
+}
+.price,
+.order-title{
+  font-weight: bold;
+}
